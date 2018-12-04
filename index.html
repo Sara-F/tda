@@ -1,1 +1,1216 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" class="test">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128901151-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-128901151-1');
+    </script>
+    <meta charset="utf-8" />
+    <title>TDA</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon-32.png"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle navbar-btn" data-toggle="collapse" data-target="#navbar" id="navbar-button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-menu-wrap" id="navbar">
+                    <ul class="nav navbar-nav navbar-menu">
+                        <li class="navbar-menu-item"><a class="btn-try-now" href="#modal_standard" rel="modal:open">TRY NOW</a></li>
+                        <li class="navbar-menu-item">
+                            <a href="#modal_standard" rel="modal:open" class="navbar-menu-link"><img class="user-icon" src="images/iconmonstr-user-5.svg" /> Sign Up</a>
+                        </li>
+                        <!--
+                        <li class="navbar-menu-item">
+                            <a href="#" class="navbar-menu-link">
+                                <span class="navbar-menu-divider">Log in</span>
+                            </a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main-wrapper">
+      <div class="gradient-wrapper">
+        <section class="hero-section">
+            <div class="hero-wrapper">
+                <div class="hero-image-wrapper home-page-hero">
+                </div>
+                <div class="hero-content home-hero-content">
+                    <div class="container">
+                        <a href="../" title="TDA The Data App">
+                            <img src="images/logo-tda.svg" class="tda-logo" alt="tda-logo ">
+                        </a>
+                        <h1 class="hero-title">Making Data Work For You</h1>
+                        <div class="hero-wrapper-btn">
+                            <a class="btn-hero go_to" href="#graphs-section"><span class="btn-hero-name">LEARN MORE</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home-page-section" id="graphs-section">
+            <div class="container">
+                <img src="images/icon-pin@3x.png" class="icon-pin go_to" alt="icon-pin" href="#graphs-section">
+                <div class="wrap-home-title">
+                    <h2 class="section-title">Empower Your Decisions with The Data App</h2>
+                    <p class="section-text">TDA's Retail and Demographic suite combine our data with public sources and machine learning (AI) to support investment, development and portfolio management decisions</p>
+                </div>
+            </div>
+        </section>
+        <section class="videos-section">
+            <div class="container">
+                <div class="home-wrapper">
+                    <div class="row is-flex">
+                        <h3 class="wrap-text-name-none">Analysis of Catchment Areas </h3>
+                        <div class="col-sm-6 col-sm-push-6 col-xs-12">
+                            <div class="home-wrap-img">
+                                <div class="video-wrapper shadow"></div>
+                                <div class="youtube-container">  
+                                  <iframe class="yt-player" src="https://www.youtube.com/embed/vMmW7ah7BL0?modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <div class="home-wrap-text small">
+                                <h3 class="wrap-text-name">Analysis of Catchment Areas</h3>
+                                <p class="wrap-text-description">TDA enables the analysis of catchment areas. Catchment areas can be an individual suburb or a user-defined group of suburbs.</p>
+                                <p class="wrap-text-description">A catchment area can be compared to its greater capital city, its own history or a different catchment area.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-wrapper">
+                    <div class="row is-flex">
+                        <h3 class="wrap-text-name-none">Catchment Area Analysis </h3>
+                        <div class="col-sm-6 col-xs-12">
+                            <div class="home-wrap-img">
+                                <div class="video-wrapper shadow"></div>
+                                <div class="youtube-container">  
+                                  <iframe class="yt-player" src="https://www.youtube.com/embed/Xf9KDfg_Y3A?modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                            <div class="home-wrap-text">
+                                <h3 class="wrap-text-name">Catchment Area Analysis</h3>
+                                <p class="wrap-text-description indent">As well as generating headline information for a catchment area, TDA provides an understanding of its socio-economic characteristics, whether it is spending power, income distribution, age distribution, mortgage stress, employment composition or education. But this is just the beginning.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-wrapper">
+                    <div class="row is-flex">
+                        <h3 class="wrap-text-name-none">Shopping Centre Analysis</h3>
+                        <div class="col-sm-6 col-sm-push-6 col-xs-12">
+                            <div class="home-wrap-img">
+                                <div class="video-wrapper shadow"></div>
+                                <div class="youtube-container">  
+                                  <iframe class="yt-player" src="https://www.youtube.com/embed/EmbPas_oCF8?modestbranding=1&amp;rel=0&amp;enablejsapi=1&amp;loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-sm-pull-6">
+                            <div class="home-wrap-text small">
+                                <h3 class="wrap-text-name">Shopping Centre Analysis</h3>
+                                <p class="wrap-text-description indent">Retail Pro and Enterprise users have access to TDA's comprehensive retail database, covering over 2,000 shopping centres across Australia, with coverage of major retailers, speciality stores, and landlord portfolios coming soon. Our retail tools include our analytical catchment area and shopping centre ranking system, based on demographics, competition and tenant mix, to assist in providing an indication of how shopping centres rank against one another. TDA also tracks all major shopping centre transactions, with data covering prices, yields, ownership and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+
+        <section class="system-section">
+            <div class="container">
+                <h2 class="system-title">TDA Scoring System</h2>
+                <p class="system-text">TDA utilises a large number of variables combined with machine learning algorithms to determine our TDA scores. Examples of some of these data inputs are illustrated below.</p>
+                <div class="row">
+                    <div class="col-md-3 col-md-offset-1 col-sm-4">
+                        <div class="wrap-system-block">
+                            <img class="system-image" src="images/image-home-features-01.svg" alt="system-image">
+                            <div class="system-info-list">
+                                <p class="system-info-title">TDA Trade Area Score</p>
+                                <ul class="system-list">
+                                    <li class="list-options">Income</li>
+                                    <li class="list-options">Density</li>
+                                    <li class="list-options">Other Demographics</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 col-sm-4">
+                        <div class="wrap-system-block">
+                            <img class="system-image" src="images/image-home-features-02.svg" alt="system-image">
+                            <div class="system-info-list">
+                                <p class="system-info-title">TDA Retail Score</p>
+                                <ul class="system-list">
+                                    <li class="list-options">Competition</li>
+                                    <li class="list-options">Various Demographics</li>
+                                    <li class="list-options">Brand Analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1 col-sm-4">
+                        <div class="wrap-system-block">
+                            <img class="system-image" src="images/image-home-features-03.svg" alt="system-image">
+                            <div class="system-info-list">
+                                <p class="system-info-title">TDA Brand Score</p>
+                                <ul class="system-list">
+                                    <li class="list-options">Drawpower</li>
+                                    <li class="list-options">Various Demographics</li>
+                                    <li class="list-options">Brand Quality</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="infographic-image" src="images/image-home-infographic-02.png" alt="infographic-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="price-section" id="price-section">
+            <div class="container">
+                <h2 class="price-title">TDA Demographics & Retail Subscription Options</h2>
+                <p class="price-text">TDA provides a number of options to cater for different needs.</p>
+                <div class="row is-flex">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wrap-product-price">
+                            <div class="prod-img-wrap">
+                                <img class="product-image" src="images/image-plans-01.svg" alt="image-product">
+                            </div>
+                            <div class="prod-info-block">
+                                <div>
+                                    <h3 class="product-title">Free</h3>
+                                    <p class="product-description">A two week trial of our Pro package with restricted features</p>
+                                    <p class="product-text">Perfect for anyone</p>
+                                </div>
+                                <div>
+                                    <p class="product-valued">$0</p>
+                                    <a class="btn product-button-sorbus" href="#modal_standard" rel="modal:open">TRY TDA FOR FREE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wrap-product-price">
+                            <div class="prod-img-wrap">
+                                <img class="product-image" src="images/image-plans-02.svg" alt="image-product">
+                            </div>
+                            <div class="prod-info-block">
+                                <div>
+                                    <h3 class="product-title">Starter</h3>
+                                    <p class="product-description">Our easy to use suite of demographics and catchment analysis tools</p>
+                                    <p class="product-text">Perfect for those who are just seeking to analyse demographics</p>
+                                </div>
+                                <div>
+                                    <p class="product-valued">$400 per Month</p>
+                                    <a class="btn product-button-cerulean" href="#modal_standard" rel="modal:open">GET STARTED</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wrap-product-price">
+                            <div class="prod-img-wrap">
+                                <img class="product-image" src="images/image-plans-03.svg" alt="image-product">
+                            </div>
+                            <div class="prod-info-block">
+                                <div>
+                                    <h3 class="product-title">Retail Pro</h3>
+                                    <p class="product-description">Our full offering of demographics, catchment analysis, shopping centre and retail analysis tools</p>
+                                    <p class="product-text">Perfect for retail professionals, investors, asset managers and developers</p>
+                                </div>
+                                <div>
+                                    <p class="product-valued">$1,000 per Month</p>
+                                    <a class="btn product-button-cerulean" href="#modal_standard" rel="modal:open">GO PRO</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="wrap-product-price">
+                            <div class="prod-img-wrap">
+                                <img class="product-image" src="images/image-plans-04.svg" alt="image-product">
+                            </div>
+                            <div class="prod-info-block">
+                                <div>
+                                    <h3 class="product-title">Enterprise</h3>
+                                    <p class="product-description">Retail Pro <u>plus</u> the ability to customise retail analysis and benchmark your portfolio of shopping centres and retailers</p>
+                                    <p class="product-text">Corporates with a large user base and/or those who wish to perform customised analysis</p>
+
+                                </div>
+                                <div>
+                                    <p class="product-valued">Price on Enquiry</p>
+                                    <a class="btn product-button-cerulean" href="#modal_enterprise" rel="modal:open">ENQUIRE NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row compare-plans hidden-on-mobile">
+                  <table class="compare-plans-table">
+                      <tr>
+                        <th class="col main-col">Compare plans</th>
+                        <th class="col">Free</th>
+                        <th class="col">Starter</th>
+                        <th class="col">Retail Pro</th>
+                        <th class="col">Enterprise</th>
+                      </tr>
+                      <tr class="pricing-row">
+                        <td class="col main-col">Base Pricing</td>
+                        <td class="col">Free</td>
+                        <td class="col">$400 per month <div class="subtitle">($4,000 per annum)</div></td>
+                        <td class="col">$1,000 per month <div class="subtitle">($10,000 per annum)</div></td>
+                        <td class="col">Price on Enquiry</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Includes</td>
+                        <td class="col">1 User (2 weeks)</td>
+                        <td class="col">1 User</td>
+                        <td class="col">3 Users</td>
+                        <td class="col">Unlimited</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Cost per Extra Seat</td>
+                      <td class="col"></td>
+                      <td class="col">$75 per month<br/>(max 3 users)</td>
+                      <td class="col">$125 per month<br/>(max 5 users)</td>
+                      <td class="col">NA</td>
+                    </tr>
+                  </table>
+                  <div class="bar dark">Features</div>
+                  <div class="bar light">Demographics</div>
+                  <table class="compare-plans-table">
+                    <tr>
+                      <td class="col main-col">Analyse Suburbs</td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Create Custom Catchments</td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Compare Catchments</td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Compare Historical Trends</td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Detailed Reports</td>
+                      <td class="col">Light</td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Detailed Charts</td>
+                      <td class="col">Light</td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">PDF Exports</td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">TDA Trade Area Score</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Customised Trade Area Score</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">White Label Reports</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                  </table>
+                  <div class="bar light">General Retail</div>
+                  <table class="compare-plans-table">
+                    <tr>
+                      <td class="col main-col">Market Overview Data</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Transaction & Valuation Data</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                  </table>
+                  <div class="bar light">Shopping Centres</div>
+                  <table class="compare-plans-table">
+                    <tr>
+                      <td class="col main-col">Centre Metrics</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Store Lists <span class="lighter">(where available)</span></td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col">Coming soon</td>
+                      <td class="col">Coming soon</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Catchment Demographics</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Custom Catchments</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">TDA Shopping Centre Score</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Customised Shopping Centre Score</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Compare Centre Catchments</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                  </table>
+                  <div class="bar light">Retailers & Brands</div>
+                  <table class="compare-plans-table">
+                    <tr>
+                      <td class="col main-col">Retailer Portfolio Metrics</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col">Coming Soon</td>
+                      <td class="col">Coming Soon</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Individual Portfolio Metrics</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col">Coming Soon</td>
+                      <td class="col">Coming Soon</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Catchment Demographics</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col">Coming Soon</td>
+                      <td class="col">Coming Soon</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Custom Catchments</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Compare Store Catchments</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col">Coming Soon</td>
+                      <td class="col">Coming Soon</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">TDA Brand Score</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col">Coming Soon</td>
+                      <td class="col">Coming Soon</td>
+                    </tr>
+                    <tr>
+                      <td class="col main-col">Customised Brand Score</td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"></td>
+                      <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                    </tr>
+                  </table>
+                </div>
+
+                <div class="row compare-plans-mobile hidden-on-desktop">
+                  <h2 class="text-center">Compare plans</h2>
+                  <select id="planChooser">
+                    <option value="free" selected>Free</option>
+                    <option value="starter">Starter</option>
+                    <option value="pro">Retail Pro</option>
+                    <option value="enterprise">Enterprise</option>
+                  </select>
+
+                  <div class="plan-panel" id="free">
+                    <h3 class="text-center plan-title">Free</h3>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Base Pricing</td>
+                        <td class="col">Free</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Includes</td>
+                        <td class="col">1 User<br/>(2 weeks)</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Cost per Extra Seat</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar dark">Features</div>
+                    <div class="bar light">Demographics</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Analyse Suburbs</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Create Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Historical Trends</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Reports</td>
+                        <td class="col">Light</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Charts</td>
+                        <td class="col">Light</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">PDF Export</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Trade Area Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Trade Area Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">White Label Reports</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">General Retail</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Market Overview Data</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Transactional & Valuation Data</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Shopping Centres</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Centre Metrics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Store Lists</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Shopping Centre Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Shopping Centre Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Centre Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Retailers & Brands</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Retailer Portfolio Metrics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Individual Store Metrics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Store Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Brand Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Brand Score</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <div class="plan-panel" id="starter">
+                    <h3 class="text-center plan-title">Starter</h3>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Base Pricing</td>
+                        <td class="col">$400 per month<br/>($4,000 per annum)</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Includes</td>
+                        <td class="col">1 User</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Cost per Extra Seat</td>
+                        <td class="col">$75 per month<br/>(max 3 users)</td>
+                      </tr>
+                    </table>
+                    <div class="bar dark">Features</div>
+                    <div class="bar light">Demographics</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Analyse Suburbs</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Create Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Historical Trends</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Reports</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Charts</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">PDF Export</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Trade Area Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Trade Area Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">White Label Reports</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">General Retail</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Market Overview Data</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Transactional & Valuation Data</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Shopping Centres</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Centre Metrics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Store Lists</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Shopping Centre Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Shopping Centre Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Centre Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Retailers & Brands</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Retailer Portfolio Metrics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Individual Store Metrics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Store Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Brand Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Brand Score</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <div class="plan-panel" id="pro">
+                    <h3 class="text-center plan-title">Retail Pro</h3>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Base Pricing</td>
+                        <td class="col">$1,000 per month<br/>($10,000 per annum)</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Includes</td>
+                        <td class="col">3 Users</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Cost per Extra Seat</td>
+                        <td class="col">$125 per month<br/>(max 5 users)</td>
+                      </tr>
+                    </table>
+                    <div class="bar dark">Features</div>
+                    <div class="bar light">Demographics</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Analyse Suburbs</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Create Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Historical Trends</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Reports</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Charts</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">PDF Export</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Trade Area Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Trade Area Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">White Label Reports</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">General Retail</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Market Overview Data</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Transactional & Valuation Data</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Shopping Centres</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Centre Metrics</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Store Lists</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Shopping Centre Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Shopping Centre Score</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Centre Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Retailers & Brands</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Retailer Portfolio Metrics</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Individual Store Metrics</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Store Catchments</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Brand Score</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Brand Score</td>
+                        <td class="col"></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <div class="plan-panel" id="enterprise">
+                    <h3 class="text-center plan-title">Enterprise</h3>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Base Pricing</td>
+                        <td class="col">Price on Enquiry</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Includes</td>
+                        <td class="col">Unlimited</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Cost per Extra Seat</td>
+                        <td class="col">NA</td>
+                      </tr>
+                    </table>
+                    <div class="bar dark">Features</div>
+                    <div class="bar light">Demographics</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Analyse Suburbs</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Create Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Historical Trends</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Reports</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Detailed Charts</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">PDF Export</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Trade Area Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Trade Area Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">White Label Reports</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">General Retail</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Market Overview Data</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Transactional & Valuation Data</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Shopping Centres</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Centre Metrics</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Store Lists</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Shopping Centre Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Shopping Centre Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Centre Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                    </table>
+                    <div class="bar light">Retailers & Brands</div>
+                    <table>
+                      <tr>
+                        <td class="col main-col">Retailer Portfolio Metrics</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Individual Store Metrics</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Catchment Demographics</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Custom Catchments</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Compare Store Catchments</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">TDA Brand Score</td>
+                        <td class="col">Coming Soon</td>
+                      </tr>
+                      <tr>
+                        <td class="col main-col">Customised Brand Score</td>
+                        <td class="col"><img src="images/tick-icon.png" class="icon"/></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="system-section">
+          <div class="container">
+            <div class="row">
+              <img class="project-image" src="images/image-project-squadink-copy.png" alt="project-image">
+            </div>
+          </div>
+        </section>
+        <section class="footer-section">
+            <div class="footer-wrapper">
+                <div class="footer-image-wrapper page-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1 ">
+                                <div class="wrap-info">
+                                    <div class="footer-title"></div>
+                                    <!-- Customers logos
+                                    <div class="footer-title">Customers who trust TDA</div>
+                                    <div class="customer-logos">
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                      <img src="images/logo-tda-footer.svg" class="customer-logo" alt="customer-logo" />
+                                    </div>
+                                    <div class="footer-title">But don't take their word for it, see for yourself!</div>
+                                    -->
+                                    <a href="#modal_standard" rel="modal:open"><button class="btn btn-regular btn-free">TRY TDA FOR FREE </button></a>
+                                    <ol class="breadcrumb-list">
+                                        <li class="breadcrumb-item list-item"><a href="#price-section" class="list-name">Pricing</a></li>
+                                        <li class="breadcrumb-item list-item"><a href="/legal/tos.html" class="list-name">Terms of Service</a></li>
+                                        <li class="breadcrumb-item list-item"><a href="/legal/privacy.html" class="list-name">Privacy Policy</a></li>
+                                        <li class="breadcrumb-item list-item"><a href="/legal/disclaimer.html" class="list-name">Disclaimers &#38; Sources</a></li>
+                                    </ol>
+                                    <div class="footer-copyright">The Data App Pty Ltd (ABN 96 601 536 145)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal modal-standad" id="modal_standard">
+      <header>
+        <img src="images/logo-tda.svg" class="tda-logo" alt="tda-logo ">
+        <h1 class="title">Register Your Interest</h1>
+        <img src="images/icon-pin@3x.png" class="icon" alt="icon-pin">
+      </header>
+      <main>
+        <h2>We are going live soon</h2>
+        <div class="description">Enter your email address below and we will keep you in the loop once our systems go live. If you're interested in gaining early access as a beta tester, tick the box below and we will be in contact.</div>
+        <div id="wufoo-m1colmi80bu4swr">
+        Fill out my <a href="https://createur.wufoo.com/forms/m1colmi80bu4swr">online form</a>.
+        </div>
+        <script type="text/javascript">
+        var m1colmi80bu4swr;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'createur',
+        'formHash':'m1colmi80bu4swr',
+        'autoResize':true,
+        'height':'305',
+        'async':true,
+        'host':'wufoo.com',
+        'header':'show',
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { m1colmi80bu4swr = new WufooForm();m1colmi80bu4swr.initialize(options);m1colmi80bu4swr.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');
+      </script>
+      </main>
+      <a href="#close-modal" rel="modal:close" class="close-modal-custom"><img src="images/icon-close.png" alt="icon-close" /></a>
+    </div>
+
+    <div class="modal modal-enterprise" id="modal_enterprise">
+      <header>
+        <img src="images/logo-tda.svg" class="tda-logo" alt="tda-logo ">
+        <h1 class="title">We Want to Speak to You</h1>
+        <img src="images/icon-pin@3x.png" class="icon" alt="icon-pin">
+      </header>
+      <main>
+        <h2>We are going live soon</h2>
+        <div class="description">We are keen to discuss your data requirements now. Our Enterprise subscription can include customisation of reports, TDA scores and more to your needs. Enterprise users will be prioritised as we look to launch in the coming months.</div>
+        <div id="wufoo-mnvvc5a0vz0uvf">
+        Fill out my <a href="https://createur.wufoo.com/forms/mnvvc5a0vz0uvf">online form</a>.
+        </div>
+        <script type="text/javascript">
+        var mnvvc5a0vz0uvf;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'createur',
+        'formHash':'mnvvc5a0vz0uvf',
+        'autoResize':true,
+        'height':'380',
+        'async':true,
+        'host':'wufoo.com',
+        'header':'show',
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { mnvvc5a0vz0uvf = new WufooForm();mnvvc5a0vz0uvf.initialize(options);mnvvc5a0vz0uvf.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');
+        </script>
+      </main>
+      <a href="#close-modal" rel="modal:close" class="close-modal-custom"><img src="images/icon-close.png" alt="icon-close" /></a>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/main.js"></script>
+    <script id="__bs_script__">
+        //<![CDATA[
+        document.write("<script async src='https://HOST:3000/browser-sync/browser-sync-client.js?v=2.16.0'><\/script>".replace("HOST", location.hostname));
+        //]]>
+    </script>
+
+    <script>
+      // Play Youtube videos on page load
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var YTPlayers = $('.yt-player');
+
+      for (var i = 0; i < YTPlayers.length; i++) {
+        var player;
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player('youtube-video', {
+            events: {
+              'onReady': onPlayerReady
+            }
+          });
+        }
+      }
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+      $( document ).ready(function() {
+        if (window.location.href.indexOf("#modal_standard") > -1) {
+          $('#modal_standard').modal('show');
+        }
+      });
+      $('#planChooser').change(function(){
+        var myID = $(this).val();
+        $('.plan-panel').each(function(){
+          myID === $(this).attr('id') ? $(this).show() : $(this).hide();
+        });
+      });
+    </script>
+</body>
+
+</html>
